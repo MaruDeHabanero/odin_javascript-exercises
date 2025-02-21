@@ -5,7 +5,7 @@ const removeFromArray = function(list, ...args) {
 			if (arg === list[i]){
 				list.splice(i, 1);
 				// If found, check again if the same index has also the same number.
-				// Keep deleting until no more matches of array is found.
+				// Keep deleting until no more matches of array are found.
 				i--;
 			}
 		}
